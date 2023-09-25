@@ -8,16 +8,22 @@ Sovelluksen käyttäjä pystyy
 - Muokata ja poistaa ostoslistoja
 - Muokata ja poistaa tuotteita ostoslistoissa
 
+# Käyttöönotto
+Backend on Heroku nimisellä pilvipalvelualustalla:
+- https://haagaheliashoppinglist-c2c43878d673.herokuapp.com/
 
-# Teknologiat
-Sovellus sisältää erillisen frontendin ja backendin. Backendissä on REST API, jota frontend käyttää. Backend tallentaa ja hakee dataa tietokannasta. Myöhemmässä vaiheessa teemme ehkä myös mobiilisovelluksen.
-
-- Frontend tehdään React-ohjelmistokirjastolla ja JavaScriptilla. Käytämme [Vite](https://vitejs.dev/) työkalua.
-- Backend tehdään Spring Boot -ohjelmistokehyksellä ja Javalla.
+Frontend on toistaiseksi vielä kehittäjillä paikallisesti ajossa.
 
 # Repositoriot
 - Frontend: https://github.com/Team-WHITE-Ohjelmistoprojekti-2/shoppinglist-frontend
 - Backend: https://github.com/Team-WHITE-Ohjelmistoprojekti-2/shoppinglist-backend
+
+# Teknologiat
+Sovellus sisältää erillisen frontendin ja backendin. Backendissä on REST API, jota frontend käyttää. Backend tallentaa ja hakee dataa tietokannasta.
+
+- Frontend tehdään React-ohjelmistokirjastolla ja JavaScriptilla. Käytämme [Vite](https://vitejs.dev/) työkalua.
+- Backend tehdään Spring Boot -ohjelmistokehyksellä ja Javalla.
+- Backendin tietokantana toimii pilvessä oleva PostgreSQL tietokanta.
 
 # Timiin Backlogit ja Sprintti 
 - Kaikki tarvittavat tiedot löytyvät Trellosta.
