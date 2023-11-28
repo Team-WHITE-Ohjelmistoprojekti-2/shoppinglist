@@ -5,6 +5,7 @@
 ### Missä osa-alueissa (esim. tekninen toteutus, projektinhallinta, dokumentaatio) onnistuitette tiiminä?
 - Tekninen toteutus onnistui ja myös dokumentaatio onnistui sujuvasti.
 -  Komminukaatio oli myös onnistunutta tiimin kesken.
+-  Opittiin paljon uusia komponentti kirjastoja Reactiin. 
 
 ### Missä osa-alueissa jäi parantamisen varaa?
 - Sprintissä otimme taskeiksi ajoittain liian laajoja tehtäviä, jonka takia jäi jotain keskeisiä asioita tekemättä, sillä aika loppui kesken.
