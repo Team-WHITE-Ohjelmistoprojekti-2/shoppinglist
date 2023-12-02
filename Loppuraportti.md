@@ -1,6 +1,10 @@
 ### Mitä haasteita kohtasitte sprinttien aikana? Kuvailkaa sekä teknisiä, että projektinhallintaan liittyviä haasteita. Voitte hyödyntää kysymyksessä retrospektiivien muistiinpanoja.
+- Kaikki eivät aina päivittäneet Trellossa omien taskien edistymistä. Definition of Donea ei tullut sprinttien backlogeissa kauheasti hyödynnettyä.
+- Pistimme backendimme ja tietokantamme Heroku-pilvipalveluun. Se toimi aluksi hyvin, mutta kurssin toisella puoliskolla sen käyttö aiheutti ongelmia syystä ja toisesta.
+- Ajankäyttö oli monella haasteena. Toiset olivat välillä töissä, kipeänä, ja armeijan kertausharjoituksissa. Lisäksi monella oli muitakin työläitä kursseja.
 
 ### Pystyitettekö ratkaisemaan nämä haasteet? Miten?
+- Herokun kanssa oli haasteita ja saimme ne korjattua hyvin kurssin ensimmäisellä puoliskolla. Googlaamalla ja Herokun dokumentaatioita seuraamalle sai hyvin korjattua ongelmia.
 
 ### Missä osa-alueissa (esim. tekninen toteutus, projektinhallinta, dokumentaatio) onnistuitette tiiminä?
 - Tekninen toteutus onnistui ja myös dokumentaatio onnistui sujuvasti.
@@ -11,6 +15,7 @@
 
 ### Missä osa-alueissa jäi parantamisen varaa?
 - Sprintissä otimme taskeiksi ajoittain liian laajoja tehtäviä, jonka takia jäi jotain keskeisiä asioita tekemättä, sillä aika loppui kesken.
+- JWT-autentikaatio jäi vähän heikoksi, koska aihe oli monelle uusi ja haasteellinen.
 
 ### Mitä opitte kurssin aikana? Mistä olisitte halunneet oppia lisää? Mikä tuntui turhalta?
 - Opimme käyttämään JWT:tä ja toteuttamaan sitä hyödyntäen käyttäjien sisään ja uloskirjautumisen.
