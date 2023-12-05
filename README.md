@@ -2,28 +2,34 @@
 Sovelluksen tarkoitus on olla käyttäjälle hyödyllinen ostoslistasovellus, jolla pystyy tehdä ja tarkastella ostoslistoja esimerkiksi kauppareissuja varten.
 
 Sovelluksen käyttäjä pystyy
+- Luoda käyttäjätilin ja kirjautua sisään
 - Luoda ostoslistoja ja tarkastella niitä
 - Lisätä ostoslistoihin tuotteita
 - Tarkastella ostoslistan tuotteita
 - Muokata ja poistaa ostoslistoja
 - Muokata ja poistaa tuotteita ostoslistoissa
 
-# Käyttöönotto
-Backend on Heroku nimisellä pilvipalvelualustalla:
-- https://haagaheliashoppinglist-c2c43878d673.herokuapp.com/
+# Julkaisu
+Backend ja frontend ovat julkaistu CSC:n Rahti-palvelun OpenShiftissa. Ne pyörivät siellä omissa Docker-konteissa.
+- Frontend: https://haagaheliashoppinglist.rahtiapp.fi/
+- Backend: https://shoppinglist-backend.rahtiapp.fi/
 
-Frontend on toistaiseksi vielä kehittäjillä paikallisesti ajossa.
+Backend käyttää Heroku-pilvipalvelussa olevaa PostgreSQL tietokantaa.
 
 # Repositoriot
 - Frontend: https://github.com/Team-WHITE-Ohjelmistoprojekti-2/shoppinglist-frontend
 - Backend: https://github.com/Team-WHITE-Ohjelmistoprojekti-2/shoppinglist-backend
 
 # Teknologiat
-Sovellus sisältää erillisen frontendin ja backendin. Backendissä on REST API, jota frontend käyttää. Backend tallentaa ja hakee dataa tietokannasta.
+Sovellus sisältää erillisen frontendin ja backendin. Backendissä on REST API, jota frontend käyttää.
+
+Tietokantana toimii PostgreSQL tuotantoympäristössä, ja H2 kehitysympäristössä.
 
 - Frontend tehdään React-ohjelmistokirjastolla ja JavaScriptilla. Käytämme [Vite](https://vitejs.dev/) työkalua.
+- Frontend käyttää Radix UI -komponenttikirjastoa, mistä saa responsiivisia käyttöliittymäkomponentteja.
 - Backend tehdään Spring Boot -ohjelmistokehyksellä ja Javalla.
-- Backendin tietokantana toimii pilvessä oleva PostgreSQL tietokanta.
+- Sovellus sisältää autentikaation, mikä käyttää JSON Web Tokenia (JWT).
+- Docker ja Docker Compose sekä frontendilla, että backendilla.
 
 # Timiin Backlogit ja Sprintti 
 - Kaikki tarvittavat tiedot löytyvät Trellosta.
