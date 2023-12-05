@@ -16,6 +16,9 @@
 ### Missä osa-alueissa jäi parantamisen varaa?
 - Sprintissä otimme taskeiksi ajoittain liian laajoja tehtäviä, jonka takia jäi jotain keskeisiä asioita tekemättä, sillä aika loppui kesken.
 - JWT-autentikaatio jäi vähän heikoksi, koska aihe oli monelle uusi ja haasteellinen.
+- MobileView projektista jäi vähän vajaaksi sitä olisi pitänyt panostaa enemmän.
+- Productlistin checkbox toiminta olisi ollut kiva lisäys jos sen olisi saanut toimimaan, että sillä olisi voinut pystyä lisäämään producteja shoppinglistaan.
+- Loginille olisi pitänyt olla parempi tarkoitus 
 
 ### Mitä opitte kurssin aikana? Mistä olisitte halunneet oppia lisää? Mikä tuntui turhalta?
 - Opimme käyttämään JWT:tä ja toteuttamaan sitä hyödyntäen käyttäjien sisään ja uloskirjautumisen.
