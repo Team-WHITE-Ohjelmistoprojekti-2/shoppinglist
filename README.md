@@ -30,9 +30,9 @@ Sovellus sisältää erillisen frontendin ja backendin. Backendissä on REST API
 - https://trello.com/w/teamwhitebacklogssprint
 
 # Tiimin jäsenet
-- Juuso Hakala
-- Leo Ahopalo
-- Jouni Kaitasalo
-- Ruichao Guan
-- Topias Naskali
-- Oliver Roman
+- Juuso Hakala - https://github.com/hollowdll
+- Leo Ahopalo - https://github.com/DiviXe
+- Jouni Kaitasalo - https://github.com/jkaitasalo
+- Ruichao Guan - https://github.com/mikkeGuan
+- Topias Naskali - https://github.com/TopiasNaskali
+- Oliver Roman - https://github.com/Gjubas
